@@ -1,0 +1,6 @@
+# include <stdio.h>
+# include <time.h>
+
+extern "C" int init (int d_lev);
+extern "C" int Sleep (int sec, int usec);
+extern "C" int set_motor(int motor, int speed);
